@@ -1,0 +1,9 @@
+"Id";"Référence";"Boîtier";"Quantité";"Désignation";"Fournisseur et réf";
+1;"R8,R7,R6,R5,R4,R3,R2,R1";"R_0603_1608Metric";8;"20k";;;
+2;"D2,D1";"D_0805_2012Metric";2;"LED";;;
+3;"J5,J4,J3,J2";"Pin_D0.9mm_L10.0mm_W2.4mm_FlatFork";4;"Conn_01x01_Female";;;
+4;"U5,U1,U2";"SOIC-16_3.9x9.9mm_P1.27mm";3;"74HCT595";;;
+5;"G***";"logo_saitis-10mm-ser";1;"LOGO";;;
+6;"C4,C3,C2,C1,C0";"C_1206_3216Metric";5;"10nF";;;
+7;"J1";"PinHeader_2x21_P2.54mm_Vertical";1;"Conn_02x21_Odd_Even";;;
+8;"U4,U3";"SOP-16_4.55x10.3mm_P1.27mm";2;"CD4051B";;;

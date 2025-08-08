@@ -1,0 +1,5 @@
+Comment,Designator,Footprint,LCSC Part #
+10nF Unpolarized capacitor,"C0,C1,C2,C3,C4",C_1206_3216Metric,C107204
+20k Resistor,"R1,R2,R3,R4,R5",R_0603_1608Metric,C4184
+74HCT595 8-bit serial in/out Shift Register 3-State Outputs,"U1,U2",SOIC-16_3.9x9.9mm_P1.27mm,C282339
+"CD4051B CMOS single 8-channel analog multiplexer demultiplexer, TSSOP-16/DIP-16/SOIC-16","U3,U4,U5",SOP-16_4.55x10.3mm_P1.27mm,C507163

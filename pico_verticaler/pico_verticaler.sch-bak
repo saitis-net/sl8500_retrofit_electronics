@@ -1,0 +1,281 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L MCU_RaspberryPi_and_Boards:Pico U0
+U 1 1 63C77C6C
+P 3750 2200
+F 0 "U0" H 3750 3415 50  0000 C CNN
+F 1 "Pico" H 3750 3324 50  0000 C CNN
+F 2 "RP2040_minimal:RPi_Pico_SMD_TH" V 3750 2200 50  0001 C CNN
+F 3 "RP2040_minimal:RPi_Pico_SMD_TH" H 3750 2200 50  0001 C CNN
+	1    3750 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Interface_UART:MAX485E U2
+U 1 1 63C78EB3
+P 1650 1950
+F 0 "U2" H 1450 1300 50  0000 C CNN
+F 1 "MAX485E" H 1950 1300 50  0000 C CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 1650 1250 50  0001 C CNN
+F 3 "https://datasheets.maximintegrated.com/en/ds/MAX1487E-MAX491E.pdf" H 1650 2000 50  0001 C CNN
+	1    1650 1950
+	-1   0    0    1   
+$EndComp
+Text GLabel 4450 1250 2    50   Input ~ 0
+VBUS
+Text GLabel 4450 1350 2    50   Input ~ 0
+VSYS
+Text GLabel 4450 1450 2    50   Input ~ 0
+GND
+Text GLabel 4450 1550 2    50   Input ~ 0
+3V3_EN
+Text GLabel 4450 1650 2    50   Input ~ 0
+3V3_PICO
+Text GLabel 4450 1750 2    50   Input ~ 0
+ADC_VREF
+Text GLabel 4450 1850 2    50   Input ~ 0
+GPIO28_ADC2
+Text GLabel 4450 1950 2    50   Input ~ 0
+AGND
+Text GLabel 4450 2050 2    50   Input ~ 0
+GPIO27_ADC1
+Text GLabel 4450 2150 2    50   Input ~ 0
+GPIO26_ADC0
+Text GLabel 4450 2250 2    50   Input ~ 0
+RUN
+Text GLabel 4450 2350 2    50   Input ~ 0
+GPIO22
+Text GLabel 4450 2550 2    50   Input ~ 0
+GPIO21
+Text GLabel 4450 2650 2    50   Input ~ 0
+GPIO20
+Text GLabel 4450 2750 2    50   Input ~ 0
+GPIO19
+Text GLabel 4450 2850 2    50   Input ~ 0
+GPIO18
+Text GLabel 4450 2950 2    50   Input ~ 0
+GND
+Text GLabel 4450 2450 2    50   Input ~ 0
+GND
+Text GLabel 4450 3050 2    50   Input ~ 0
+GPIO17
+Text GLabel 4450 3150 2    50   Input ~ 0
+GPIO16
+Text GLabel 3050 3150 0    50   Input ~ 0
+GPIO15
+Text GLabel 3050 1250 0    50   Input ~ 0
+GPIO0
+Text GLabel 3050 1350 0    50   Input ~ 0
+GPIO1
+Text GLabel 3050 1550 0    50   Input ~ 0
+GPIO2
+Text GLabel 3050 1650 0    50   Input ~ 0
+GPIO3
+Text GLabel 3050 1750 0    50   Input ~ 0
+GPIO4
+Text GLabel 3050 1850 0    50   Input ~ 0
+GPIO5
+Text GLabel 3050 2650 0    50   Input ~ 0
+GPIO11
+Text GLabel 2050 1750 2    50   Input ~ 0
+GPIO8
+Text GLabel 3050 2350 0    50   Input ~ 0
+GPIO9
+Text GLabel 2050 1850 2    50   Input ~ 0
+GPIO6
+Text GLabel 3050 2550 0    50   Input ~ 0
+GPIO10
+Text GLabel 2050 1950 2    50   Input ~ 0
+GPIO7
+Text GLabel 2050 2050 2    50   Input ~ 0
+GPIO9
+Text GLabel 3050 2050 0    50   Input ~ 0
+GPIO6
+Text GLabel 3050 2150 0    50   Input ~ 0
+GPIO7
+Text GLabel 3050 2250 0    50   Input ~ 0
+GPIO8
+Text GLabel 3050 2750 0    50   Input ~ 0
+GPIO12
+Text GLabel 3050 2850 0    50   Input ~ 0
+GPIO13
+Text GLabel 3050 3050 0    50   Input ~ 0
+GPIO14
+Text GLabel 3050 1450 0    50   Input ~ 0
+GND
+Text GLabel 3050 1950 0    50   Input ~ 0
+GND
+Text GLabel 3050 2450 0    50   Input ~ 0
+GND
+Text GLabel 3050 2950 0    50   Input ~ 0
+GND
+Text GLabel 1250 1750 0    50   Input ~ 0
+RS485A
+Text GLabel 1250 2050 0    50   Input ~ 0
+RS485B
+Text GLabel 1650 1350 1    50   Input ~ 0
+GND
+Text GLabel 1650 2450 3    50   Input ~ 0
+3V3
+$Comp
+L Connector_Generic:Conn_01x01 JUSB_DM_TP2
+U 1 1 63CAF183
+P 1600 3850
+F 0 "JUSB_DM_TP2" H 1680 3892 50  0000 L CNN
+F 1 "Conn_01x01" H 1680 3801 50  0000 L CNN
+F 2 "pananico:panani" H 1600 3850 50  0001 C CNN
+F 3 "~" H 1600 3850 50  0001 C CNN
+	1    1600 3850
+	1    0    0    -1  
+$EndComp
+Text GLabel 1400 3850 0    50   Input ~ 0
+USB_DM_TP2
+Text GLabel 1400 4050 0    50   Input ~ 0
+USB_DP_TP3
+Text GLabel 1400 4250 0    50   Input ~ 0
+BOOTSEL_TP6
+$Comp
+L Connector_Generic:Conn_01x01 JUSB_DM_TP3
+U 1 1 63CB53DD
+P 1600 4050
+F 0 "JUSB_DM_TP3" H 1680 4092 50  0000 L CNN
+F 1 "Conn_01x01" H 1680 4001 50  0000 L CNN
+F 2 "pananico:panani" H 1600 4050 50  0001 C CNN
+F 3 "~" H 1600 4050 50  0001 C CNN
+	1    1600 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 JBOOTSEL_TP6
+U 1 1 63CB55EF
+P 1600 4250
+F 0 "JBOOTSEL_TP6" H 1680 4292 50  0000 L CNN
+F 1 "Conn_01x01" H 1680 4201 50  0000 L CNN
+F 2 "pananico:panani" H 1600 4250 50  0001 C CNN
+F 3 "~" H 1600 4250 50  0001 C CNN
+	1    1600 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C1
+U 1 1 63CD6859
+P 3950 4000
+F 0 "C1" V 3698 4000 50  0000 C CNN
+F 1 "10nF" V 3789 4000 50  0000 C CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric" H 3988 3850 50  0001 C CNN
+F 3 "~" H 3950 4000 50  0001 C CNN
+	1    3950 4000
+	0    1    1    0   
+$EndComp
+Text GLabel 3800 4000 0    50   Input ~ 0
+GND
+Text GLabel 4100 4000 2    50   Input ~ 0
+3V3
+Text GLabel 6950 2200 2    50   Input ~ 0
+3V3
+Text GLabel 6450 2400 0    50   Input ~ 0
+RS485B
+Text GLabel 6450 1900 0    50   Input ~ 0
+RS485A
+Text GLabel 6950 3100 2    50   Input ~ 0
+GPIO16
+Text GLabel 6950 3000 2    50   Input ~ 0
+GPIO17
+Text GLabel 6950 1700 2    50   Input ~ 0
+BOOTSEL_TP6
+Text GLabel 6950 2900 2    50   Input ~ 0
+GND
+Text GLabel 6950 2800 2    50   Input ~ 0
+GPIO18
+Text GLabel 6950 2700 2    50   Input ~ 0
+GPIO19
+Text GLabel 6950 2600 2    50   Input ~ 0
+GPIO20
+Text GLabel 6950 2500 2    50   Input ~ 0
+GPIO21
+Text GLabel 6950 2300 2    50   Input ~ 0
+GPIO22
+Text GLabel 6950 2100 2    50   Input ~ 0
+GPIO26_ADC0
+Text GLabel 6950 2000 2    50   Input ~ 0
+GPIO27_ADC1
+Text GLabel 6950 1900 2    50   Input ~ 0
+AGND
+Text GLabel 6950 1800 2    50   Input ~ 0
+GPIO28_ADC2
+Text GLabel 6750 4000 2    50   Input ~ 0
+ADC_VREF
+Text GLabel 6950 1600 2    50   Input ~ 0
+3V3_PICO
+Text GLabel 6950 1500 2    50   Input ~ 0
+3V3_EN
+Text GLabel 6950 1400 2    50   Input ~ 0
+USB_DP_TP3
+Text GLabel 6950 1300 2    50   Input ~ 0
+VSYS
+Text GLabel 6950 1200 2    50   Input ~ 0
+VBUS
+Text GLabel 6450 2900 0    50   Input ~ 0
+GND
+Text GLabel 6450 1400 0    50   Input ~ 0
+USB_DM_TP2
+Text GLabel 6450 3000 0    50   Input ~ 0
+GPIO14
+Text GLabel 6450 2800 0    50   Input ~ 0
+GPIO13
+Text GLabel 6450 2700 0    50   Input ~ 0
+GPIO12
+Text GLabel 6450 2200 0    50   Input ~ 0
+GPIO8
+Text GLabel 6450 2100 0    50   Input ~ 0
+GPIO7
+Text GLabel 6450 2000 0    50   Input ~ 0
+GPIO6
+Text GLabel 6450 2500 0    50   Input ~ 0
+GPIO10
+Text GLabel 6450 2300 0    50   Input ~ 0
+GPIO9
+Text GLabel 6450 2600 0    50   Input ~ 0
+GPIO11
+Text GLabel 6450 1800 0    50   Input ~ 0
+GPIO5
+Text GLabel 6450 1700 0    50   Input ~ 0
+GPIO4
+Text GLabel 6450 1600 0    50   Input ~ 0
+GPIO3
+Text GLabel 6450 1500 0    50   Input ~ 0
+GPIO2
+Text GLabel 6450 1300 0    50   Input ~ 0
+GPIO1
+Text GLabel 6450 1200 0    50   Input ~ 0
+GPIO0
+Text GLabel 6450 3100 0    50   Input ~ 0
+GPIO15
+$Comp
+L Connector_Generic:Conn_02x20_Odd_Even J1
+U 1 1 63C90FB0
+P 6650 2100
+F 0 "J1" H 6700 3217 50  0000 C CNN
+F 1 "Conn_02x20_Odd_Even" H 6700 3126 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x20_P2.54mm_Vertical" H 6650 2100 50  0001 C CNN
+F 3 "~" H 6650 2100 50  0001 C CNN
+	1    6650 2100
+	1    0    0    -1  
+$EndComp
+Text GLabel 6950 2400 2    50   Input ~ 0
+RUN
+$EndSCHEMATC
