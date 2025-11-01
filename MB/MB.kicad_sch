@@ -9034,6 +9034,26 @@
 		)
 		(uuid "12357484-afde-4f29-844d-2398494d80c7")
 	)
+	(text "HEAD Side"
+		(exclude_from_sim no)
+		(at 38.354 113.792 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "194779ec-8b9b-4bdc-b485-be4b27db2992")
+	)
+	(text "D OUT 3"
+		(exclude_from_sim no)
+		(at 75.692 140.462 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "29e68752-e0c8-4b5c-9c24-cd9d9ca032dc")
+	)
 	(text "very first board, componenent like electrolytic capacitors have been added to build the first working prototypes"
 		(exclude_from_sim no)
 		(at 336.042 152.146 0)
@@ -9044,7 +9064,7 @@
 		)
 		(uuid "455045c4-f55d-4cb7-8ba8-184ac4f90f1d")
 	)
-	(text "PICO aqui:\n- 12 quadrants\n- 4 serial\n\n------------\n\n16\n\nPICO ctrl:\n- 6 pwm\n- 6 dir\n- 4 mux\n- 2 analog\n- 4 serial\n\n----------\n\n22\n\n\nMUX 24:\n in\n  - 6 fault\n  - 3 sensors\n  - vrail\n  - vbat\n\n out\n  - 6 sleep\n  - 6 brake\n"
+	(text "PICO aqui:\n- 12 quadrants\n- 2 serial\n\n------------\n\n16\n\nPICO ctrl:\n- 6 pwm\n- 6 dir\n- 4 mux\n- 2 analog\n- 4 serial\n\n----------\n\n22\n\n\nMUX 24:\n in\n  - 6 fault\n  - 3 sensors\n  - vrail\n  - vbat\n\n out\n  - 6 sleep\n  - 6 brake\n"
 		(exclude_from_sim no)
 		(at 15.875 74.295 0)
 		(effects
@@ -9055,15 +9075,65 @@
 		)
 		(uuid "57b7d3f7-f9a0-43be-b9c8-86360c51a096")
 	)
-	(text "I did no discover that 3 signals from head were driven through differential lines,\nupdate in progress\nNow the rasberry is now on the head of the bot, the idea is to get those now\nunused barcode readers signals to connect the raspberry pi to the picos running the motors.\nAlso discovered that the connector is crossed between both end: pin 1 = pin 20 at the other end."
+	(text "B IN 6\nSerial"
 		(exclude_from_sim no)
-		(at 65.024 99.06 0)
+		(at 76.454 135.382 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "5b1cc9e2-aaf1-4776-a474-5904fa4fc7c6")
+	)
+	(text "I did not discover that 3 signals from head were driven through differential lines,\nupdate in progress\nNow the rasberry is now attached to the head of the bot, the idea is to get those now\nunused barcode readers signals to connect the raspberry pi to the picos running the motors.\nAlso discovered that the connector is crossed between both ends: pin 1 = pin 20 at the other end.\n\nNews: the last modified bot do not have any additional cable:\n- power is routed via 1,2 and 5,6\n- communication via 7,8 and 11,12"
+		(exclude_from_sim no)
+		(at 61.468 98.552 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 		)
 		(uuid "604f6d29-e107-40d2-9df7-1faa714f8c32")
+	)
+	(text "C OUT 10\nPower -"
+		(exclude_from_sim no)
+		(at 75.692 129.794 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "75e1a6c6-838c-432f-941f-06de4c34e266")
+	)
+	(text "IN 7"
+		(exclude_from_sim no)
+		(at 71.882 150.622 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "a0d9b757-61a8-45b9-b16e-cfec410c85c1")
+	)
+	(text "A OUT 2\nPower +"
+		(exclude_from_sim no)
+		(at 75.184 120.396 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "a105041c-8561-43f8-b860-9b9cd3207e95")
+	)
+	(text "B OUT 4\nSerial"
+		(exclude_from_sim no)
+		(at 75.692 145.034 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "a1a8830b-ed0e-4644-97a3-d09c54b7eb12")
 	)
 	(text "LV31_Cout"
 		(exclude_from_sim no)
@@ -9084,6 +9154,26 @@
 			)
 		)
 		(uuid "c419b80f-da50-4c66-a90d-8bf84c460984")
+	)
+	(text "A IN 5"
+		(exclude_from_sim no)
+		(at 74.676 124.968 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "d421f4bf-d3fa-4c9d-8ada-6b81d5813fe0")
+	)
+	(text "MB Side"
+		(exclude_from_sim no)
+		(at 56.896 114.046 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "dc37353a-9df3-41b6-9398-9c0ccda55ca6")
 	)
 	(text "75179B_out"
 		(exclude_from_sim no)
