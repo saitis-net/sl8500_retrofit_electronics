@@ -9064,7 +9064,7 @@
 		)
 		(uuid "455045c4-f55d-4cb7-8ba8-184ac4f90f1d")
 	)
-	(text "PICO aqui:\n- 12 quadrants\n- 2 serial\n\n------------\n\n16\n\nPICO ctrl:\n- 6 pwm\n- 6 dir\n- 4 mux\n- 2 analog\n- 4 serial\n\n----------\n\n22\n\n\nMUX 24:\n in\n  - 6 fault\n  - 3 sensors\n  - vrail\n  - vbat\n\n out\n  - 6 sleep\n  - 6 brake\n"
+	(text "PICO aqui:\n- 12 quadrants\n- 2 serial\n\n------------\n\n14\n\nPICO ctrl:\n- 6 pwm\n- 6 dir\n- 4 mux\n- 2 analog\n- 4 serial\n\n----------\n\n22\n\n\nMUX 24:\n in\n  - 6 fault\n  - 3 sensors\n  - vrail\n  - vbat\n\n out\n  - 6 sleep\n  - 6 brake\n"
 		(exclude_from_sim no)
 		(at 15.875 74.295 0)
 		(effects

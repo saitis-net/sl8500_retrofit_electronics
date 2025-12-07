@@ -1,0 +1,3408 @@
+(kicad_pcb
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(general
+		(thickness 1.6)
+		(legacy_teardrops no)
+	)
+	(paper "A4")
+	(layers
+		(0 "F.Cu" signal)
+		(2 "B.Cu" signal)
+		(9 "F.Adhes" user "F.Adhesive")
+		(11 "B.Adhes" user "B.Adhesive")
+		(13 "F.Paste" user)
+		(15 "B.Paste" user)
+		(5 "F.SilkS" user "F.Silkscreen")
+		(7 "B.SilkS" user "B.Silkscreen")
+		(1 "F.Mask" user)
+		(3 "B.Mask" user)
+		(17 "Dwgs.User" user "User.Drawings")
+		(19 "Cmts.User" user "User.Comments")
+		(21 "Eco1.User" user "User.Eco1")
+		(23 "Eco2.User" user "User.Eco2")
+		(25 "Edge.Cuts" user)
+		(27 "Margin" user)
+		(31 "F.CrtYd" user "F.Courtyard")
+		(29 "B.CrtYd" user "B.Courtyard")
+		(35 "F.Fab" user)
+		(33 "B.Fab" user)
+		(39 "User.1" user)
+		(41 "User.2" user)
+		(43 "User.3" user)
+		(45 "User.4" user)
+	)
+	(setup
+		(pad_to_mask_clearance 0)
+		(allow_soldermask_bridges_in_footprints no)
+		(tenting front back)
+		(pcbplotparams
+			(layerselection 0x00000000_00000000_55555555_5755f5ff)
+			(plot_on_all_layers_selection 0x00000000_00000000_00000000_00000000)
+			(disableapertmacros no)
+			(usegerberextensions no)
+			(usegerberattributes yes)
+			(usegerberadvancedattributes yes)
+			(creategerberjobfile yes)
+			(dashed_line_dash_ratio 12.000000)
+			(dashed_line_gap_ratio 3.000000)
+			(svgprecision 4)
+			(plotframeref no)
+			(mode 1)
+			(useauxorigin no)
+			(hpglpennumber 1)
+			(hpglpenspeed 20)
+			(hpglpendiameter 15.000000)
+			(pdf_front_fp_property_popups yes)
+			(pdf_back_fp_property_popups yes)
+			(pdf_metadata yes)
+			(pdf_single_document no)
+			(dxfpolygonmode yes)
+			(dxfimperialunits yes)
+			(dxfusepcbnewfont yes)
+			(psnegative no)
+			(psa4output no)
+			(plot_black_and_white yes)
+			(sketchpadsonfab no)
+			(plotpadnumbers no)
+			(hidednponfab no)
+			(sketchdnponfab yes)
+			(crossoutdnponfab yes)
+			(subtractmaskfromsilk no)
+			(outputformat 1)
+			(mirror no)
+			(drillshape 0)
+			(scaleselection 1)
+			(outputdirectory "fab/")
+		)
+	)
+	(net 0 "")
+	(footprint "TestPoint:TestPoint_Pad_4.0x4.0mm"
+		(layer "B.Cu")
+		(uuid "00c21d94-9f9e-4e04-9d51-46f475c772b5")
+		(at 136.74 52.5 180)
+		(descr "SMD rectangular pad as test Point, square 4.0mm side length")
+		(tags "test point SMD pad rectangle square")
+		(property "Reference" "REF**42"
+			(at 0 2.898 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "87a1464b-ac9f-448d-8c8d-6e967de96150")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Value" "TestPoint_Pad_4.0x4.0mm"
+			(at 0 -3.1 0)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "eabd2d7f-7b38-4308-97cb-2056fe933471")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "2563e561-9a07-485e-b8ed-e9c4c422821c")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "2cc047c3-0dc0-4687-9b91-1339eebc7d27")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(attr exclude_from_pos_files exclude_from_bom)
+		(pad "1" smd oval
+			(at 0 0 180)
+			(size 2 4)
+			(layers "B.Cu" "B.Mask")
+			(uuid "3f09e29f-aa95-4ba4-ae0b-2f9908c831bf")
+		)
+		(embedded_fonts no)
+	)
+	(footprint "TestPoint:TestPoint_Pad_4.0x4.0mm"
+		(layer "B.Cu")
+		(uuid "0841ded7-c7a8-437e-80db-d15811e5a60a")
+		(at 141.82 52.5 180)
+		(descr "SMD rectangular pad as test Point, square 4.0mm side length")
+		(tags "test point SMD pad rectangle square")
+		(property "Reference" "REF**44"
+			(at 0 2.898 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "d60ac7b3-58fb-4eed-8dc6-2c6c41047560")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Value" "TestPoint_Pad_4.0x4.0mm"
+			(at 0 -3.1 0)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "fd600e80-2b84-496f-b3e4-51bcd75304c1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "cde5e930-908d-4ce4-9b9a-bc158d20f6ff")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "d7ff3970-fee1-4c44-8e73-d2b75664aa29")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(attr exclude_from_pos_files exclude_from_bom)
+		(pad "1" smd oval
+			(at 0 0 180)
+			(size 2 4)
+			(layers "B.Cu" "B.Mask")
+			(uuid "aafa2ce8-eefe-440f-b83c-6cba2d9cf5ac")
+		)
+		(embedded_fonts no)
+	)
+	(footprint "TestPoint:TestPoint_Pad_4.0x4.0mm"
+		(layer "B.Cu")
+		(uuid "11b31f44-e5b8-4547-8ea0-bbb47ae1c893")
+		(at 88.48 52.5 180)
+		(descr "SMD rectangular pad as test Point, square 4.0mm side length")
+		(tags "test point SMD pad rectangle square")
+		(property "Reference" "REF**23"
+			(at 0 2.898 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "32814fc7-d8f7-40d1-8d0e-09ec9cf59139")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Value" "TestPoint_Pad_4.0x4.0mm"
+			(at 0 -3.1 0)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "6e0b931f-3724-45d2-aa77-346814f7027f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "ee014d58-3d71-4068-9c6c-10f5f742558d")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "34fadd80-54b6-48ff-b3b3-ce6a25b03493")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(attr exclude_from_pos_files exclude_from_bom)
+		(pad "1" smd oval
+			(at 0 0 180)
+			(size 2 4)
+			(layers "B.Cu" "B.Mask")
+			(uuid "937ae530-ade1-4105-9614-c750925441e4")
+		)
+		(embedded_fonts no)
+	)
+	(footprint "TestPoint:TestPoint_Pad_4.0x4.0mm"
+		(layer "B.Cu")
+		(uuid "18e2b4d2-6f38-4ff0-87a2-3d6e86024ada")
+		(at 32.6 52.5 180)
+		(descr "SMD rectangular pad as test Point, square 4.0mm side length")
+		(tags "test point SMD pad rectangle square")
+		(property "Reference" "REF**1"
+			(at 0 2.898 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "0316eec3-c21d-4611-9f00-ca279f6db059")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Value" "TestPoint_Pad_4.0x4.0mm"
+			(at 0 -3.1 0)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "3fb3ce50-ff16-484e-8b75-66647f15a6ec")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "53701d25-a833-4057-84d3-9b8c79f3e7a6")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "fee3205a-44b5-4892-84b1-8898b88fb5e0")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(attr exclude_from_pos_files exclude_from_bom)
+		(pad "1" smd oval
+			(at 0 0 180)
+			(size 2 4)
+			(layers "B.Cu" "B.Mask")
+			(uuid "59abadb1-f783-4b70-a4b7-c5cfa1cb1c02")
+		)
+		(embedded_fonts no)
+	)
+	(footprint "TestPoint:TestPoint_Pad_4.0x4.0mm"
+		(layer "B.Cu")
+		(uuid "1b2729ca-05c2-4c7e-8c04-fceb0e7a8534")
+		(at 52.92 52.5 180)
+		(descr "SMD rectangular pad as test Point, square 4.0mm side length")
+		(tags "test point SMD pad rectangle square")
+		(property "Reference" "REF**9"
+			(at 0 2.898 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "430571e7-d909-4b41-9622-d20e128ceb98")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Value" "TestPoint_Pad_4.0x4.0mm"
+			(at 0 -3.1 0)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "ef4698c0-09da-4958-832b-a56c732d7f84")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "258cbd86-c7be-4bbb-899c-e609af47c8bf")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "ca1c7f52-7fe5-43da-80c8-79e1cb5c58f6")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(attr exclude_from_pos_files exclude_from_bom)
+		(pad "1" smd oval
+			(at 0 0 180)
+			(size 2 4)
+			(layers "B.Cu" "B.Mask")
+			(uuid "f53d3ab7-0543-4f57-95b4-31a741f7c4e7")
+		)
+		(embedded_fonts no)
+	)
+	(footprint "TestPoint:TestPoint_Pad_4.0x4.0mm"
+		(layer "B.Cu")
+		(uuid "1b401746-0d07-40ee-825d-efc93cb615af")
+		(at 83.4 52.5 180)
+		(descr "SMD rectangular pad as test Point, square 4.0mm side length")
+		(tags "test point SMD pad rectangle square")
+		(property "Reference" "REF**21"
+			(at 0 2.898 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "ab8ede20-a1a3-4f73-ba7d-35d26112e3dd")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Value" "TestPoint_Pad_4.0x4.0mm"
+			(at 0 -3.1 0)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "6a4d1f6f-e839-4d41-b973-dabccbcf40de")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "6244fee0-374d-4a3e-b22c-e0816eb816b3")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "1a273fe1-e027-4eb5-942d-25a1781d88fb")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(attr exclude_from_pos_files exclude_from_bom)
+		(pad "1" smd oval
+			(at 0 0 180)
+			(size 2 4)
+			(layers "B.Cu" "B.Mask")
+			(uuid "fd0b7124-2161-422b-803a-4d9e03bd4377")
+		)
+		(embedded_fonts no)
+	)
+	(footprint "TestPoint:TestPoint_Pad_4.0x4.0mm"
+		(layer "B.Cu")
+		(uuid "2503b4d6-39ae-410a-88c6-a47276a279e2")
+		(at 58 52.5 180)
+		(descr "SMD rectangular pad as test Point, square 4.0mm side length")
+		(tags "test point SMD pad rectangle square")
+		(property "Reference" "REF**11"
+			(at 0 2.898 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "0de407ec-f5c5-4c66-b0d6-eef5e924821e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Value" "TestPoint_Pad_4.0x4.0mm"
+			(at 0 -3.1 0)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "578a7f60-910e-4d94-98ff-04c924acedd0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "9d29ef8c-80c7-49ff-afd4-d5ae4cd4d567")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "ec9ba7b8-9277-4f5a-afe0-f53f62d94e81")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(attr exclude_from_pos_files exclude_from_bom)
+		(pad "1" smd oval
+			(at 0 0 180)
+			(size 2 4)
+			(layers "B.Cu" "B.Mask")
+			(uuid "13d5be88-eef8-4de1-9131-de17ab0ba0ed")
+		)
+		(embedded_fonts no)
+	)
+	(footprint "TestPoint:TestPoint_Pad_4.0x4.0mm"
+		(layer "B.Cu")
+		(uuid "28f7ff01-e368-40b0-867b-776cc70347f1")
+		(at 35.14 52.5 180)
+		(descr "SMD rectangular pad as test Point, square 4.0mm side length")
+		(tags "test point SMD pad rectangle square")
+		(property "Reference" "REF**2"
+			(at 0 2.898 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "20e58651-c685-4773-a81a-1f6a4812c1d3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Value" "TestPoint_Pad_4.0x4.0mm"
+			(at 0 -3.1 0)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "6ba95163-c813-49f4-8b67-2e30580c9474")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "2c155149-ea66-4f21-88a4-9c0a27540730")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "ef85f513-81cf-4829-8d0b-a80c26afb1c6")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(attr exclude_from_pos_files exclude_from_bom)
+		(pad "1" smd oval
+			(at 0 0 180)
+			(size 2 4)
+			(layers "B.Cu" "B.Mask")
+			(uuid "ab11e8f3-c713-455b-aa5f-ddac0f0c6466")
+		)
+		(embedded_fonts no)
+	)
+	(footprint "TestPoint:TestPoint_Pad_4.0x4.0mm"
+		(layer "B.Cu")
+		(uuid "2b4f8e06-982f-4a05-a0ef-7b1419157e26")
+		(at 75.78 52.5 180)
+		(descr "SMD rectangular pad as test Point, square 4.0mm side length")
+		(tags "test point SMD pad rectangle square")
+		(property "Reference" "REF**18"
+			(at 0 2.898 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "7f978eda-ef2e-4b6c-9413-188f33916c0b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Value" "TestPoint_Pad_4.0x4.0mm"
+			(at 0 -3.1 0)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "75e21dac-f219-4aa0-8056-810fd4df45fc")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "1f39659d-b00c-4d74-9873-24e5ff6a04d1")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "a057c263-7905-43b8-a821-963f0cd29218")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(attr exclude_from_pos_files exclude_from_bom)
+		(pad "1" smd oval
+			(at 0 0 180)
+			(size 2 4)
+			(layers "B.Cu" "B.Mask")
+			(uuid "c340d120-c219-4e0d-a868-90ce6388e1b0")
+		)
+		(embedded_fonts no)
+	)
+	(footprint "TestPoint:TestPoint_Pad_4.0x4.0mm"
+		(layer "B.Cu")
+		(uuid "2e2c5a39-c904-4e04-9dc3-449d3f98c093")
+		(at 91.02 52.5 180)
+		(descr "SMD rectangular pad as test Point, square 4.0mm side length")
+		(tags "test point SMD pad rectangle square")
+		(property "Reference" "REF**24"
+			(at 0 2.898 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "5fa2aeca-9615-404e-bfd5-b14252392c2f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Value" "TestPoint_Pad_4.0x4.0mm"
+			(at 0 -3.1 0)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "e1b18f9f-e7ab-4136-aa8e-ef2dac5ecec0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "24eba9ec-415e-4a36-9bd5-37dd125aa896")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "1aaf8b67-ded4-4788-b158-836c0ff7dea2")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(attr exclude_from_pos_files exclude_from_bom)
+		(pad "1" smd oval
+			(at 0 0 180)
+			(size 2 4)
+			(layers "B.Cu" "B.Mask")
+			(uuid "a4472f57-deba-4392-a5d3-6ca8eb8ab7d8")
+		)
+		(embedded_fonts no)
+	)
+	(footprint "TestPoint:TestPoint_Pad_4.0x4.0mm"
+		(layer "B.Cu")
+		(uuid "33dc3e5c-8f68-486f-b406-74edccf33654")
+		(at 50.38 52.5 180)
+		(descr "SMD rectangular pad as test Point, square 4.0mm side length")
+		(tags "test point SMD pad rectangle square")
+		(property "Reference" "REF**8"
+			(at 0 2.898 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "f2b76ce4-a2b3-4733-93e1-727458ad0284")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Value" "TestPoint_Pad_4.0x4.0mm"
+			(at 0 -3.1 0)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "74fd55d1-8314-4ef5-aeb8-fe954e7a7d2d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "91caffc2-9fdc-497f-8b97-b5cbece36034")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "b80fbb32-45ca-490c-968d-ced84d161a39")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(attr exclude_from_pos_files exclude_from_bom)
+		(pad "1" smd oval
+			(at 0 0 180)
+			(size 2 4)
+			(layers "B.Cu" "B.Mask")
+			(uuid "1e40232b-3861-4e00-bc98-a17252551be8")
+		)
+		(embedded_fonts no)
+	)
+	(footprint "TestPoint:TestPoint_Pad_4.0x4.0mm"
+		(layer "B.Cu")
+		(uuid "33dd4abf-6afe-41ac-a3d5-c55b3dd86d9f")
+		(at 96.1 52.5 180)
+		(descr "SMD rectangular pad as test Point, square 4.0mm side length")
+		(tags "test point SMD pad rectangle square")
+		(property "Reference" "REF**26"
+			(at 0 2.898 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "a673c036-1598-4d98-9c20-493a77f438fb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Value" "TestPoint_Pad_4.0x4.0mm"
+			(at 0 -3.1 0)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "3fddedc9-dbd9-4df2-8dfa-71dc5186045d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "81842b34-e958-4064-a2da-b1b3efd1ff55")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "39f07805-450c-43de-9a8c-bcb08edcb5aa")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(attr exclude_from_pos_files exclude_from_bom)
+		(pad "1" smd oval
+			(at 0 0 180)
+			(size 2 4)
+			(layers "B.Cu" "B.Mask")
+			(uuid "df019979-353b-4764-9c7f-789bec3f9852")
+		)
+		(embedded_fonts no)
+	)
+	(footprint "TestPoint:TestPoint_Pad_4.0x4.0mm"
+		(layer "B.Cu")
+		(uuid "34bc7454-77d6-4edf-ad1e-d1ec7d1e1f70")
+		(at 40.22 52.5 180)
+		(descr "SMD rectangular pad as test Point, square 4.0mm side length")
+		(tags "test point SMD pad rectangle square")
+		(property "Reference" "REF**4"
+			(at 0 2.898 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "6572b89b-a648-4fa0-a483-e7298efdcd21")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Value" "TestPoint_Pad_4.0x4.0mm"
+			(at 0 -3.1 0)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "6c34fb62-dd2e-45fd-a2b3-74e3335876f6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "b7fc32c2-d4d0-4657-9db9-11d9c2690379")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "88a71624-02a0-4e9e-9386-4a06ef2a724c")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(attr exclude_from_pos_files exclude_from_bom)
+		(pad "1" smd oval
+			(at 0 0 180)
+			(size 2 4)
+			(layers "B.Cu" "B.Mask")
+			(uuid "c5f24374-2f62-4281-867f-c1cd38e0974c")
+		)
+		(embedded_fonts no)
+	)
+	(footprint "TestPoint:TestPoint_Pad_4.0x4.0mm"
+		(layer "B.Cu")
+		(uuid "357b707b-059d-4827-8d92-932ee3c2f296")
+		(at 55.46 52.5 180)
+		(descr "SMD rectangular pad as test Point, square 4.0mm side length")
+		(tags "test point SMD pad rectangle square")
+		(property "Reference" "REF**10"
+			(at 0 2.898 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "9adfe3e0-0b4b-4f60-8cf0-e608d3bcb950")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Value" "TestPoint_Pad_4.0x4.0mm"
+			(at 0 -3.1 0)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "5758c400-a769-4eec-9410-818ec990cca4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "71817ba7-0aec-453e-a562-1fd5fdbdd06f")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "59a4d6eb-bf91-4ef7-be62-202a9131486a")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(attr exclude_from_pos_files exclude_from_bom)
+		(pad "1" smd oval
+			(at 0 0 180)
+			(size 2 4)
+			(layers "B.Cu" "B.Mask")
+			(uuid "66475483-b5be-4f39-9fa3-a8500f459e0c")
+		)
+		(embedded_fonts no)
+	)
+	(footprint "TestPoint:TestPoint_Pad_4.0x4.0mm"
+		(layer "B.Cu")
+		(uuid "4171d995-f249-42df-89dc-41b2dc0c22fa")
+		(at 149.44 52.5 180)
+		(descr "SMD rectangular pad as test Point, square 4.0mm side length")
+		(tags "test point SMD pad rectangle square")
+		(property "Reference" "REF**47"
+			(at 0 2.898 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "2ea797d3-2094-4404-936f-c44407f3a57d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Value" "TestPoint_Pad_4.0x4.0mm"
+			(at 0 -3.1 0)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "47a084af-f3c8-466a-9859-3fa0cf4b2f6c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "d284d593-82bf-45d4-ac2f-fb4d422d0797")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "6767ad75-9469-4502-a5cd-dd2d87313902")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(attr exclude_from_pos_files exclude_from_bom)
+		(pad "1" smd oval
+			(at 0 0 180)
+			(size 2 4)
+			(layers "B.Cu" "B.Mask")
+			(uuid "05789207-6f3b-4157-b26d-1971a78137f9")
+		)
+		(embedded_fonts no)
+	)
+	(footprint "TestPoint:TestPoint_Pad_4.0x4.0mm"
+		(layer "B.Cu")
+		(uuid "52920aa9-2df5-412b-88d8-8d5dd1395ec6")
+		(at 106.26 52.5 180)
+		(descr "SMD rectangular pad as test Point, square 4.0mm side length")
+		(tags "test point SMD pad rectangle square")
+		(property "Reference" "REF**30"
+			(at 0 2.898 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "c97e32dc-807e-4d02-99ce-1781594abf86")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Value" "TestPoint_Pad_4.0x4.0mm"
+			(at 0 -3.1 0)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "39efb8cb-00a7-493a-8e47-a359e70db9f2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "89db08fd-b734-4a05-b2dd-06c01ccdb0d3")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "cc5651ca-f0dc-47f6-a472-eccc329ffafb")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(attr exclude_from_pos_files exclude_from_bom)
+		(pad "1" smd oval
+			(at 0 0 180)
+			(size 2 4)
+			(layers "B.Cu" "B.Mask")
+			(uuid "70d76c81-9db4-43e3-9b30-7a437e72e522")
+		)
+		(embedded_fonts no)
+	)
+	(footprint "TestPoint:TestPoint_Pad_4.0x4.0mm"
+		(layer "B.Cu")
+		(uuid "55a50d7f-2835-45ad-9543-fec6d3801389")
+		(at 60.54 52.5 180)
+		(descr "SMD rectangular pad as test Point, square 4.0mm side length")
+		(tags "test point SMD pad rectangle square")
+		(property "Reference" "REF**12"
+			(at 0 2.898 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "57848dc7-3a2b-4c00-9f41-f3ac9053e74a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Value" "TestPoint_Pad_4.0x4.0mm"
+			(at 0 -3.1 0)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "b00a4f75-9aa3-4119-b8ae-170b6283f27b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "e498d81a-c792-4132-a37b-e4f8ab659f6b")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "6301fea6-1dc1-4d3d-bc7f-c24a016431b1")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(attr exclude_from_pos_files exclude_from_bom)
+		(pad "1" smd oval
+			(at 0 0 180)
+			(size 2 4)
+			(layers "B.Cu" "B.Mask")
+			(uuid "0920ab82-7ace-4e73-b89e-b83053459168")
+		)
+		(embedded_fonts no)
+	)
+	(footprint "TestPoint:TestPoint_Pad_4.0x4.0mm"
+		(layer "B.Cu")
+		(uuid "5aacbf74-bc4e-40ac-8562-86d83263d5af")
+		(at 47.84 52.5 180)
+		(descr "SMD rectangular pad as test Point, square 4.0mm side length")
+		(tags "test point SMD pad rectangle square")
+		(property "Reference" "REF**7"
+			(at 0 2.898 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "10ae59d9-d6c9-4b99-8a41-6a4b2cd9807a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Value" "TestPoint_Pad_4.0x4.0mm"
+			(at 0 -3.1 0)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "0ec0148e-33ed-44b9-9cac-1333081b3d97")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "17f8a5ff-0095-4d54-8239-8cd38fd59671")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "a1be7ff6-b295-4b82-b452-f1cf5c1e4dd6")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(attr exclude_from_pos_files exclude_from_bom)
+		(pad "1" smd oval
+			(at 0 0 180)
+			(size 2 4)
+			(layers "B.Cu" "B.Mask")
+			(uuid "50f55c77-e8a0-4cea-8e89-b78e6ad92972")
+		)
+		(embedded_fonts no)
+	)
+	(footprint "TestPoint:TestPoint_Pad_4.0x4.0mm"
+		(layer "B.Cu")
+		(uuid "5ede4c72-ad02-44ec-ac06-b385ec01ce8f")
+		(at 45.3 52.5 180)
+		(descr "SMD rectangular pad as test Point, square 4.0mm side length")
+		(tags "test point SMD pad rectangle square")
+		(property "Reference" "REF**6"
+			(at 0 2.898 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "b01ef070-7bb2-4d78-bc5c-58d20a2e64f0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Value" "TestPoint_Pad_4.0x4.0mm"
+			(at 0 -3.1 0)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "2b8f5e38-6c7b-475b-ac4b-d0d767542de8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "743072d9-c6ab-403d-b191-8cb460a25446")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "90ab22f7-ad27-43bd-a995-40ad5f11dfeb")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(attr exclude_from_pos_files exclude_from_bom)
+		(pad "1" smd oval
+			(at 0 0 180)
+			(size 2 4)
+			(layers "B.Cu" "B.Mask")
+			(uuid "82f7d7d0-fd58-4e5d-9068-5976d2345dd9")
+		)
+		(embedded_fonts no)
+	)
+	(footprint "TestPoint:TestPoint_Pad_4.0x4.0mm"
+		(layer "B.Cu")
+		(uuid "5fb26741-c3f0-4425-9538-20b24e16ac92")
+		(at 124.04 52.5 180)
+		(descr "SMD rectangular pad as test Point, square 4.0mm side length")
+		(tags "test point SMD pad rectangle square")
+		(property "Reference" "REF**37"
+			(at 0 2.898 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "fa1c68f6-cbc7-4c42-b925-106b862fc3f7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Value" "TestPoint_Pad_4.0x4.0mm"
+			(at 0 -3.1 0)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "96111b77-63d0-4bea-b5a6-092fe86d81e4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "4ba089d2-fcaa-425c-a9e0-ce55f4fced7d")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "2bf1aaf9-9f25-4cc0-800c-eb3ebabf14ad")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(attr exclude_from_pos_files exclude_from_bom)
+		(pad "1" smd oval
+			(at 0 0 180)
+			(size 2 4)
+			(layers "B.Cu" "B.Mask")
+			(uuid "80dc889c-7f4e-440d-af84-5c50bb9f8317")
+		)
+		(embedded_fonts no)
+	)
+	(footprint "TestPoint:TestPoint_Pad_4.0x4.0mm"
+		(layer "B.Cu")
+		(uuid "68d0f322-8687-4355-8bc2-630f74102095")
+		(at 144.36 52.5 180)
+		(descr "SMD rectangular pad as test Point, square 4.0mm side length")
+		(tags "test point SMD pad rectangle square")
+		(property "Reference" "REF**45"
+			(at 0 2.898 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "54167a11-96eb-450d-8154-c73e92ff69cd")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Value" "TestPoint_Pad_4.0x4.0mm"
+			(at 0 -3.1 0)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "88ac89c2-3453-461e-8a94-788de14042d5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "7556d969-44fb-436f-a809-b34e4a6b5fff")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "9071295f-3773-4dc1-b1e5-f5f12830976a")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(attr exclude_from_pos_files exclude_from_bom)
+		(pad "1" smd oval
+			(at 0 0 180)
+			(size 2 4)
+			(layers "B.Cu" "B.Mask")
+			(uuid "e3563ec9-6097-47c2-a2fc-31973698f7ba")
+		)
+		(embedded_fonts no)
+	)
+	(footprint "TestPoint:TestPoint_Pad_4.0x4.0mm"
+		(layer "B.Cu")
+		(uuid "6a106379-3504-4e05-b229-f9291c49db0d")
+		(at 93.56 52.5 180)
+		(descr "SMD rectangular pad as test Point, square 4.0mm side length")
+		(tags "test point SMD pad rectangle square")
+		(property "Reference" "REF**25"
+			(at 0 2.898 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "518badc2-e36a-4ea9-9958-40b93ca75e46")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Value" "TestPoint_Pad_4.0x4.0mm"
+			(at 0 -3.1 0)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "e54a4b0a-4995-4c1b-a969-df0a7e3986ee")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "285911e9-e76a-46ba-8767-a86b18abc540")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "2852b4f9-2ea9-4d83-be69-3e0eb648839e")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(attr exclude_from_pos_files exclude_from_bom)
+		(pad "1" smd oval
+			(at 0 0 180)
+			(size 2 4)
+			(layers "B.Cu" "B.Mask")
+			(uuid "e113c4bf-e024-40da-9ee4-fc7513adccf4")
+		)
+		(embedded_fonts no)
+	)
+	(footprint "TestPoint:TestPoint_Pad_4.0x4.0mm"
+		(layer "B.Cu")
+		(uuid "7cdbb067-58e4-4f32-9cdd-d983c0f22388")
+		(at 146.9 52.5 180)
+		(descr "SMD rectangular pad as test Point, square 4.0mm side length")
+		(tags "test point SMD pad rectangle square")
+		(property "Reference" "REF**46"
+			(at 0 2.898 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "0fdad850-8563-495b-aad8-246309b7a546")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Value" "TestPoint_Pad_4.0x4.0mm"
+			(at 0 -3.1 0)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "976f3074-9b11-425c-8006-df2d2012a76f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "5706eb1f-a1e3-446c-beec-1c2db78982c7")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "8dac602e-9165-4b09-9ed3-233a8f18815a")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(attr exclude_from_pos_files exclude_from_bom)
+		(pad "1" smd oval
+			(at 0 0 180)
+			(size 2 4)
+			(layers "B.Cu" "B.Mask")
+			(uuid "0aa03614-e374-4306-99e1-b5c9c226ad20")
+		)
+		(embedded_fonts no)
+	)
+	(footprint "TestPoint:TestPoint_Pad_4.0x4.0mm"
+		(layer "B.Cu")
+		(uuid "851ac4d6-89cc-495b-9dcd-69056ce516ad")
+		(at 126.58 52.5 180)
+		(descr "SMD rectangular pad as test Point, square 4.0mm side length")
+		(tags "test point SMD pad rectangle square")
+		(property "Reference" "REF**38"
+			(at 0 2.898 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "159ec63c-79c6-4a56-a6e0-b44acaa42ac7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Value" "TestPoint_Pad_4.0x4.0mm"
+			(at 0 -3.1 0)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "2b1f548d-2c83-4106-b0f1-a469ab76823d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "dbf3fd4c-963a-4bda-b7c3-6b5711a79fb6")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "2e3fa0bc-71bd-4219-bc20-484530412c92")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(attr exclude_from_pos_files exclude_from_bom)
+		(pad "1" smd oval
+			(at 0 0 180)
+			(size 2 4)
+			(layers "B.Cu" "B.Mask")
+			(uuid "273f3abc-fe3b-43d8-9e02-4405d5087235")
+		)
+		(embedded_fonts no)
+	)
+	(footprint "TestPoint:TestPoint_Pad_4.0x4.0mm"
+		(layer "B.Cu")
+		(uuid "8af95efe-db82-4c02-9dfb-885d6054bd12")
+		(at 129.12 52.5 180)
+		(descr "SMD rectangular pad as test Point, square 4.0mm side length")
+		(tags "test point SMD pad rectangle square")
+		(property "Reference" "REF**39"
+			(at 0 2.898 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "9dccff3c-2955-432a-8dfc-4c2b4137e4e4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Value" "TestPoint_Pad_4.0x4.0mm"
+			(at 0 -3.1 0)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "75cab751-1fa2-462b-9d52-94931193de70")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "7e408bcc-46ad-42b1-8c2f-662ce8d8f70e")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "6567d8c7-839d-46d9-908f-84f9b78ba24b")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(attr exclude_from_pos_files exclude_from_bom)
+		(pad "1" smd oval
+			(at 0 0 180)
+			(size 2 4)
+			(layers "B.Cu" "B.Mask")
+			(uuid "2cd1091f-591c-49bf-aae3-cd7390dd2543")
+		)
+		(embedded_fonts no)
+	)
+	(footprint "TestPoint:TestPoint_Pad_4.0x4.0mm"
+		(layer "B.Cu")
+		(uuid "927e0124-1fb7-4fbc-8589-911b8a25b0c5")
+		(at 108.8 52.5 180)
+		(descr "SMD rectangular pad as test Point, square 4.0mm side length")
+		(tags "test point SMD pad rectangle square")
+		(property "Reference" "REF**31"
+			(at 0 2.898 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "f8f00874-2bf3-42d1-b288-70f3bde203d8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Value" "TestPoint_Pad_4.0x4.0mm"
+			(at 0 -3.1 0)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "522f2518-b17e-47fd-bf12-ef61484d0b7c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "86c7a88d-1449-44aa-8d0a-6598990a7089")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "bc35a901-0904-4f0a-8a88-e48c9ac5c747")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(attr exclude_from_pos_files exclude_from_bom)
+		(pad "1" smd oval
+			(at 0 0 180)
+			(size 2 4)
+			(layers "B.Cu" "B.Mask")
+			(uuid "448e4621-400b-4743-a72f-2de1286bfffc")
+		)
+		(embedded_fonts no)
+	)
+	(footprint "TestPoint:TestPoint_Pad_4.0x4.0mm"
+		(layer "B.Cu")
+		(uuid "9a4a7ad0-ffca-4255-8227-13a533a59926")
+		(at 98.64 52.5 180)
+		(descr "SMD rectangular pad as test Point, square 4.0mm side length")
+		(tags "test point SMD pad rectangle square")
+		(property "Reference" "REF**27"
+			(at 0 2.898 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "8232eeed-a04b-48bd-8d56-ce387edda08e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Value" "TestPoint_Pad_4.0x4.0mm"
+			(at 0 -3.1 0)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "a57aab24-c147-4982-9448-4646e784e947")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "97924a16-e396-4d7b-82e3-c6074330a28d")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "84086463-467c-4117-8595-7dbfd1fc4990")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(attr exclude_from_pos_files exclude_from_bom)
+		(pad "1" smd oval
+			(at 0 0 180)
+			(size 2 4)
+			(layers "B.Cu" "B.Mask")
+			(uuid "d8763c4f-8042-43ce-bc9b-39b0e015de6a")
+		)
+		(embedded_fonts no)
+	)
+	(footprint "TestPoint:TestPoint_Pad_4.0x4.0mm"
+		(layer "B.Cu")
+		(uuid "a2cfd2c1-cd1c-4127-8865-5558dbf66e63")
+		(at 85.94 52.5 180)
+		(descr "SMD rectangular pad as test Point, square 4.0mm side length")
+		(tags "test point SMD pad rectangle square")
+		(property "Reference" "REF**22"
+			(at 0 2.898 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "ac9e917c-53b5-4060-884a-535c3ced7962")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Value" "TestPoint_Pad_4.0x4.0mm"
+			(at 0 -3.1 0)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "b1f8caee-e86b-4764-b744-253bc2c4ffb6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "3bc96388-b7f8-46df-9722-01c5e1e16441")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "187e1186-f995-4a1d-aa9f-85694012fc3c")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(attr exclude_from_pos_files exclude_from_bom)
+		(pad "1" smd oval
+			(at 0 0 180)
+			(size 2 4)
+			(layers "B.Cu" "B.Mask")
+			(uuid "6927340a-6ff2-4ec4-b5aa-6e3fa58c050e")
+		)
+		(embedded_fonts no)
+	)
+	(footprint "TestPoint:TestPoint_Pad_4.0x4.0mm"
+		(layer "B.Cu")
+		(uuid "a599447c-8cc0-4a92-a570-10179370592f")
+		(at 78.32 52.5 180)
+		(descr "SMD rectangular pad as test Point, square 4.0mm side length")
+		(tags "test point SMD pad rectangle square")
+		(property "Reference" "REF**19"
+			(at 0 2.898 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "7a7d86d0-c359-4bd2-8607-778d4d50137c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Value" "TestPoint_Pad_4.0x4.0mm"
+			(at 0 -3.1 0)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "20a665e6-8379-44ea-8c59-033b4f0d75b2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "01998ab4-2fb9-496e-8112-a96b9d3b2dbb")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "5e3c7a5f-97a3-439b-9b60-6e7f64a1a6bd")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(attr exclude_from_pos_files exclude_from_bom)
+		(pad "1" smd oval
+			(at 0 0 180)
+			(size 2 4)
+			(layers "B.Cu" "B.Mask")
+			(uuid "3d25cafd-254a-4835-9184-65a0b7277f75")
+		)
+		(embedded_fonts no)
+	)
+	(footprint "TestPoint:TestPoint_Pad_4.0x4.0mm"
+		(layer "B.Cu")
+		(uuid "a5fa33fb-03fb-4c4d-ad4c-da9803070425")
+		(at 103.72 52.5 180)
+		(descr "SMD rectangular pad as test Point, square 4.0mm side length")
+		(tags "test point SMD pad rectangle square")
+		(property "Reference" "REF**29"
+			(at 0 2.898 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "f687f310-0fd1-4b63-964e-1dfaa5c398bd")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Value" "TestPoint_Pad_4.0x4.0mm"
+			(at 0 -3.1 0)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "88452c10-6a4d-4afb-aa6b-2740d277c251")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "31ff81f8-fff0-4fc2-9ba9-337dc35b743c")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "27995b17-9d88-4abe-abed-f069e7f6a8c8")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(attr exclude_from_pos_files exclude_from_bom)
+		(pad "1" smd oval
+			(at 0 0 180)
+			(size 2 4)
+			(layers "B.Cu" "B.Mask")
+			(uuid "77a79634-2717-4ccc-841f-3078d4300d82")
+		)
+		(embedded_fonts no)
+	)
+	(footprint "TestPoint:TestPoint_Pad_4.0x4.0mm"
+		(layer "B.Cu")
+		(uuid "abca150b-b7e5-4e6b-8df3-3af605198bc8")
+		(at 63.08 52.5 180)
+		(descr "SMD rectangular pad as test Point, square 4.0mm side length")
+		(tags "test point SMD pad rectangle square")
+		(property "Reference" "REF**13"
+			(at 0 2.898 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "4df95078-d258-4db4-a751-d8592c96bf7b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Value" "TestPoint_Pad_4.0x4.0mm"
+			(at 0 -3.1 0)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "1c951d54-3df4-4bd6-b257-86195c3ad251")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "0ca1b17a-90d8-4074-bfb8-fb1811fe56ab")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "39364aa5-89e0-4f9c-9d12-51c778ad6816")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(attr exclude_from_pos_files exclude_from_bom)
+		(pad "1" smd oval
+			(at 0 0 180)
+			(size 2 4)
+			(layers "B.Cu" "B.Mask")
+			(uuid "70f2973e-d4e8-4eff-8d97-0acfebc1078b")
+		)
+		(embedded_fonts no)
+	)
+	(footprint "TestPoint:TestPoint_Pad_4.0x4.0mm"
+		(layer "B.Cu")
+		(uuid "b1b310c1-f733-49be-8d21-6ab9122d71a0")
+		(at 37.68 52.5 180)
+		(descr "SMD rectangular pad as test Point, square 4.0mm side length")
+		(tags "test point SMD pad rectangle square")
+		(property "Reference" "REF**3"
+			(at 0 2.898 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "d21d1609-a5de-4831-b1db-9155a7e9ed4d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Value" "TestPoint_Pad_4.0x4.0mm"
+			(at 0 -3.1 0)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "ddfcc9bd-eb65-4082-a8bc-f1fbecb7072b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "24f4600e-d142-482d-9534-787a25c11a42")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "9cc7789c-ed5f-4795-bd7e-555b0a0dc955")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(attr exclude_from_pos_files exclude_from_bom)
+		(pad "1" smd oval
+			(at 0 0 180)
+			(size 2 4)
+			(layers "B.Cu" "B.Mask")
+			(uuid "0d90b811-2910-406d-a1fe-4db166779f6c")
+		)
+		(embedded_fonts no)
+	)
+	(footprint "TestPoint:TestPoint_Pad_4.0x4.0mm"
+		(layer "B.Cu")
+		(uuid "b1fc26ec-802f-4253-84e0-50eb6fe6699c")
+		(at 101.18 52.5 180)
+		(descr "SMD rectangular pad as test Point, square 4.0mm side length")
+		(tags "test point SMD pad rectangle square")
+		(property "Reference" "REF**28"
+			(at 0 2.898 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "0e8edcee-f77b-4598-9c8e-18906c9c82e0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Value" "TestPoint_Pad_4.0x4.0mm"
+			(at 0 -3.1 0)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "f633740b-b2e3-4751-8004-cfd6c8551d91")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "88d50980-efe8-4178-b6d2-107c269fceb7")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "276d77a3-8f21-40f8-9789-8a6b6293e05e")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(attr exclude_from_pos_files exclude_from_bom)
+		(pad "1" smd oval
+			(at 0 0 180)
+			(size 2 4)
+			(layers "B.Cu" "B.Mask")
+			(uuid "36d36176-8181-4326-99e5-5f6f84080585")
+		)
+		(embedded_fonts no)
+	)
+	(footprint "TestPoint:TestPoint_Pad_4.0x4.0mm"
+		(layer "B.Cu")
+		(uuid "b423100d-0b65-47fe-9e91-eeab27ed04c9")
+		(at 134.2 52.5 180)
+		(descr "SMD rectangular pad as test Point, square 4.0mm side length")
+		(tags "test point SMD pad rectangle square")
+		(property "Reference" "REF**41"
+			(at 0 2.898 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "57b6ba65-641d-48fd-a592-0d30df528278")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Value" "TestPoint_Pad_4.0x4.0mm"
+			(at 0 -3.1 0)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "0212f64f-8d1d-4be7-9a6b-43bf39cf3698")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "f24d4d9d-e153-4b87-8184-bb3e3f2357e2")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "d845b42f-6e66-4002-a5f7-e79811567f4f")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(attr exclude_from_pos_files exclude_from_bom)
+		(pad "1" smd oval
+			(at 0 0 180)
+			(size 2 4)
+			(layers "B.Cu" "B.Mask")
+			(uuid "03511cb7-f02f-4cbb-bd8c-84971f1ece5c")
+		)
+		(embedded_fonts no)
+	)
+	(footprint "TestPoint:TestPoint_Pad_4.0x4.0mm"
+		(layer "B.Cu")
+		(uuid "c1e84b57-c517-4716-aed7-9c276d4e573e")
+		(at 121.5 52.5 180)
+		(descr "SMD rectangular pad as test Point, square 4.0mm side length")
+		(tags "test point SMD pad rectangle square")
+		(property "Reference" "REF**36"
+			(at 0 2.898 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "94ef3ca8-9212-430a-b99e-e0ce7ce27cc0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Value" "TestPoint_Pad_4.0x4.0mm"
+			(at 0 -3.1 0)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "e84b8ac5-0e7c-43f2-bdcc-c4394ca2e43e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "3378389d-b897-47e4-b88c-02c34537be55")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "33d8ed99-5e67-4232-b8fe-9470ce5fe07a")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(attr exclude_from_pos_files exclude_from_bom)
+		(pad "1" smd oval
+			(at 0 0 180)
+			(size 2 4)
+			(layers "B.Cu" "B.Mask")
+			(uuid "667cefcf-34e8-4f8d-8f4e-616ba2f3ad53")
+		)
+		(embedded_fonts no)
+	)
+	(footprint "TestPoint:TestPoint_Pad_4.0x4.0mm"
+		(layer "B.Cu")
+		(uuid "c906a750-b20d-4972-9cb4-47251ab6df19")
+		(at 65.62 52.5 180)
+		(descr "SMD rectangular pad as test Point, square 4.0mm side length")
+		(tags "test point SMD pad rectangle square")
+		(property "Reference" "REF**14"
+			(at 0 2.898 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "a57be6d1-0696-414a-8e4d-cb30533d9d4f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Value" "TestPoint_Pad_4.0x4.0mm"
+			(at 0 -3.1 0)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "17f3d0e5-028d-4cdc-9c1b-14ea390e969d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "c11e0410-3728-4f37-9241-26eba409ee8f")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "aed9749e-8d53-4391-8dc0-8c8a298d99be")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(attr exclude_from_pos_files exclude_from_bom)
+		(pad "1" smd oval
+			(at 0 0 180)
+			(size 2 4)
+			(layers "B.Cu" "B.Mask")
+			(uuid "4bd439d3-6395-49db-85ad-a8f3413504e3")
+		)
+		(embedded_fonts no)
+	)
+	(footprint "TestPoint:TestPoint_Pad_4.0x4.0mm"
+		(layer "B.Cu")
+		(uuid "cdd86c07-85a3-483f-bba7-c1b896324597")
+		(at 80.86 52.5 180)
+		(descr "SMD rectangular pad as test Point, square 4.0mm side length")
+		(tags "test point SMD pad rectangle square")
+		(property "Reference" "REF**20"
+			(at 0 2.898 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "99939450-e305-4b7b-bcdc-975f9f3dff97")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Value" "TestPoint_Pad_4.0x4.0mm"
+			(at 0 -3.1 0)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "1608c2fe-0a5b-481f-afab-8b9c7def151c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "59f5956e-8058-4d30-b41d-69c885fcfe94")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "288c7d2f-9824-47da-9d16-692295210946")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(attr exclude_from_pos_files exclude_from_bom)
+		(pad "1" smd oval
+			(at 0 0 180)
+			(size 2 4)
+			(layers "B.Cu" "B.Mask")
+			(uuid "7c61c9de-38bd-489a-8635-51a7ab2fc656")
+		)
+		(embedded_fonts no)
+	)
+	(footprint "TestPoint:TestPoint_Pad_4.0x4.0mm"
+		(layer "B.Cu")
+		(uuid "ce59fbef-60e2-459d-9933-a2949c91cc88")
+		(at 70.7 52.5 180)
+		(descr "SMD rectangular pad as test Point, square 4.0mm side length")
+		(tags "test point SMD pad rectangle square")
+		(property "Reference" "REF**16"
+			(at 0 2.898 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "dab13888-625d-4545-b192-d961b2d1df3a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Value" "TestPoint_Pad_4.0x4.0mm"
+			(at 0 -3.1 0)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "b3bee11b-0752-4cf0-853c-afa6108f40da")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "8d80ca22-2dc7-4313-85af-bbd4fe120d98")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "898890db-833e-4881-bea1-82947841a3ce")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(attr exclude_from_pos_files exclude_from_bom)
+		(pad "1" smd oval
+			(at 0 0 180)
+			(size 2 4)
+			(layers "B.Cu" "B.Mask")
+			(uuid "b5315dae-c23b-46cf-8349-22f2b7138cd0")
+		)
+		(embedded_fonts no)
+	)
+	(footprint "TestPoint:TestPoint_Pad_4.0x4.0mm"
+		(layer "B.Cu")
+		(uuid "cf96669a-4a40-468c-853c-94b8bae4ebf7")
+		(at 131.66 52.5 180)
+		(descr "SMD rectangular pad as test Point, square 4.0mm side length")
+		(tags "test point SMD pad rectangle square")
+		(property "Reference" "REF**40"
+			(at 0 2.898 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "be042948-a9ed-4c98-a686-a44ccf198a33")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Value" "TestPoint_Pad_4.0x4.0mm"
+			(at 0 -3.1 0)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "88f968e6-508b-4bca-90a9-ba13b1b62a67")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "d7dc073b-c438-422d-9b2f-0bfe9b78cc8d")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "2fdbcca7-a583-46a0-9680-44a96c03f9c4")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(attr exclude_from_pos_files exclude_from_bom)
+		(pad "1" smd oval
+			(at 0 0 180)
+			(size 2 4)
+			(layers "B.Cu" "B.Mask")
+			(uuid "8acfd500-00e8-4412-b99f-d67de79fcbe2")
+		)
+		(embedded_fonts no)
+	)
+	(footprint "TestPoint:TestPoint_Pad_4.0x4.0mm"
+		(layer "B.Cu")
+		(uuid "d60120ef-15d6-4efb-b4d9-fb85124a5193")
+		(at 139.28 52.5 180)
+		(descr "SMD rectangular pad as test Point, square 4.0mm side length")
+		(tags "test point SMD pad rectangle square")
+		(property "Reference" "REF**43"
+			(at 0 2.898 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "f80474bf-d360-465c-9051-824f13a4e624")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Value" "TestPoint_Pad_4.0x4.0mm"
+			(at 0 -3.1 0)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "c539609d-4ebf-49f0-8b2f-bf737fd810e4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "abf220e2-5ed5-45fa-9c1b-c5fc29bc86ec")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "8e3826e0-96db-41d1-884a-159e9579b89f")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(attr exclude_from_pos_files exclude_from_bom)
+		(pad "1" smd oval
+			(at 0 0 180)
+			(size 2 4)
+			(layers "B.Cu" "B.Mask")
+			(uuid "a993ddba-9296-4f9d-ae70-52b36c85c005")
+		)
+		(embedded_fonts no)
+	)
+	(footprint "TestPoint:TestPoint_Pad_4.0x4.0mm"
+		(layer "B.Cu")
+		(uuid "d9261d3c-526d-49f9-925b-f93dc8694ffd")
+		(at 42.76 52.5 180)
+		(descr "SMD rectangular pad as test Point, square 4.0mm side length")
+		(tags "test point SMD pad rectangle square")
+		(property "Reference" "REF**5"
+			(at 0 2.898 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "571dedb0-02e6-43e0-b10e-701d191b2016")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Value" "TestPoint_Pad_4.0x4.0mm"
+			(at 0 -3.1 0)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "458a794a-d38f-4d07-836a-1bf9e4063824")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "7c2a044b-c75c-4289-8202-bb6d661d032f")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "8705232a-01e4-4c36-9ab7-db4b6e76eeb6")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(attr exclude_from_pos_files exclude_from_bom)
+		(pad "1" smd oval
+			(at 0 0 180)
+			(size 2 4)
+			(layers "B.Cu" "B.Mask")
+			(uuid "6bffbc52-5214-4bb9-b1a8-3eb3c44925d5")
+		)
+		(embedded_fonts no)
+	)
+	(footprint "TestPoint:TestPoint_Pad_4.0x4.0mm"
+		(layer "B.Cu")
+		(uuid "dc43ee01-7522-4a72-bba9-75748282013a")
+		(at 113.88 52.5 180)
+		(descr "SMD rectangular pad as test Point, square 4.0mm side length")
+		(tags "test point SMD pad rectangle square")
+		(property "Reference" "REF**33"
+			(at 0 2.898 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "d509241e-3544-46c5-b47e-1ee0b3ab2709")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Value" "TestPoint_Pad_4.0x4.0mm"
+			(at 0 -3.1 0)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "6cbdc858-d2eb-4472-bc58-a73397dd11ce")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "c37fb5f0-0d1d-48b6-897d-a7f765f25f7f")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "1c510314-cca4-46e0-8c26-a90fec6db36c")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(attr exclude_from_pos_files exclude_from_bom)
+		(pad "1" smd oval
+			(at 0 0 180)
+			(size 2 4)
+			(layers "B.Cu" "B.Mask")
+			(uuid "bc20fd97-7687-433d-aa49-4c17a2b88cbe")
+		)
+		(embedded_fonts no)
+	)
+	(footprint "TestPoint:TestPoint_Pad_4.0x4.0mm"
+		(layer "B.Cu")
+		(uuid "e37ac6b9-dcaf-4994-a0b8-fafe3ac1d8c9")
+		(at 118.96 52.5 180)
+		(descr "SMD rectangular pad as test Point, square 4.0mm side length")
+		(tags "test point SMD pad rectangle square")
+		(property "Reference" "REF**35"
+			(at 0 2.898 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "e64de8d6-a678-4a41-bf4d-becb5c305cb5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Value" "TestPoint_Pad_4.0x4.0mm"
+			(at 0 -3.1 0)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "354db006-ab57-437b-9364-4219fb7e86a2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "b7ec6077-574f-4298-ae65-99a8248cff47")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "398fc5bd-910f-4a82-965f-76a3a384e9a3")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(attr exclude_from_pos_files exclude_from_bom)
+		(pad "1" smd oval
+			(at 0 0 180)
+			(size 2 4)
+			(layers "B.Cu" "B.Mask")
+			(uuid "03490a20-9dae-4a32-bfe8-bbdddde27c57")
+		)
+		(embedded_fonts no)
+	)
+	(footprint "TestPoint:TestPoint_Pad_4.0x4.0mm"
+		(layer "B.Cu")
+		(uuid "e69b1c8a-f145-4c21-8ba3-1beb948cde28")
+		(at 111.34 52.5 180)
+		(descr "SMD rectangular pad as test Point, square 4.0mm side length")
+		(tags "test point SMD pad rectangle square")
+		(property "Reference" "REF**32"
+			(at 0 2.898 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "02b49f10-5751-40bb-a688-dc427d70bfee")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Value" "TestPoint_Pad_4.0x4.0mm"
+			(at 0 -3.1 0)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "aa08e15a-e531-44fc-b2ab-616810aff00c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "93f9362f-f927-475a-aec8-634bcd487f0d")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "905962ed-fb0b-4fc7-ac55-5b490562b026")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(attr exclude_from_pos_files exclude_from_bom)
+		(pad "1" smd oval
+			(at 0 0 180)
+			(size 2 4)
+			(layers "B.Cu" "B.Mask")
+			(uuid "25abbd50-aed2-4928-be6e-01035e17296b")
+		)
+		(embedded_fonts no)
+	)
+	(footprint "TestPoint:TestPoint_Pad_4.0x4.0mm"
+		(layer "B.Cu")
+		(uuid "e76d1bd1-b085-4959-a53f-b3741211148e")
+		(at 68.16 52.5 180)
+		(descr "SMD rectangular pad as test Point, square 4.0mm side length")
+		(tags "test point SMD pad rectangle square")
+		(property "Reference" "REF**15"
+			(at 0 2.898 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "d98bafbd-9b9b-46ac-bacb-d57f9ae59928")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Value" "TestPoint_Pad_4.0x4.0mm"
+			(at 0 -3.1 0)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "7146305f-a4ef-4939-8839-3e5344e4f0de")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "7acbe199-491b-49bb-86fa-f8e89fbe6bb6")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "be8e0f32-af5a-481b-9e2e-d1bd89b50034")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(attr exclude_from_pos_files exclude_from_bom)
+		(pad "1" smd oval
+			(at 0 0 180)
+			(size 2 4)
+			(layers "B.Cu" "B.Mask")
+			(uuid "31fd2f1d-f5ef-4f09-b5b5-5e2c7752bcb4")
+		)
+		(embedded_fonts no)
+	)
+	(footprint "TestPoint:TestPoint_Pad_4.0x4.0mm"
+		(layer "B.Cu")
+		(uuid "f819761e-9476-40ab-8068-60c324b4c0e2")
+		(at 73.24 52.5 180)
+		(descr "SMD rectangular pad as test Point, square 4.0mm side length")
+		(tags "test point SMD pad rectangle square")
+		(property "Reference" "REF**17"
+			(at 0 2.898 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "778be1cf-522a-428a-b3c5-6ab1e99d3a15")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Value" "TestPoint_Pad_4.0x4.0mm"
+			(at 0 -3.1 0)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "26480baa-1d9e-4a3c-8860-87058423a1cb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "a180d979-3651-4b29-9d8a-652b441647be")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "caf736f2-756b-420b-accc-e07e8e35c548")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(attr exclude_from_pos_files exclude_from_bom)
+		(pad "1" smd oval
+			(at 0 0 180)
+			(size 2 4)
+			(layers "B.Cu" "B.Mask")
+			(uuid "9879cd77-e1cc-408e-b0fb-1c423b6d36e5")
+		)
+		(embedded_fonts no)
+	)
+	(footprint "TestPoint:TestPoint_Pad_4.0x4.0mm"
+		(layer "B.Cu")
+		(uuid "ff98832f-aad6-4d40-9fcf-d0dc79a3ffb3")
+		(at 116.42 52.5 180)
+		(descr "SMD rectangular pad as test Point, square 4.0mm side length")
+		(tags "test point SMD pad rectangle square")
+		(property "Reference" "REF**34"
+			(at 0 2.898 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "218d4d69-32f8-4949-9dd2-21632c3c0f44")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Value" "TestPoint_Pad_4.0x4.0mm"
+			(at 0 -3.1 0)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "1e0abecb-ce55-4228-8a06-9bd48d56615c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "f1f7e6cd-7b8b-418a-a99b-478626beea63")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "ef1fb0be-5885-480e-913b-c5d3f11df098")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(attr exclude_from_pos_files exclude_from_bom)
+		(pad "1" smd oval
+			(at 0 0 180)
+			(size 2 4)
+			(layers "B.Cu" "B.Mask")
+			(uuid "3f0a4b09-c063-460a-9f68-0aaa6f009903")
+		)
+		(embedded_fonts no)
+	)
+	(gr_poly
+		(pts
+			(xy 87.281219 54.439559) (xy 86.041626 54.439559) (xy 86.041626 50.527085) (xy 87.281219 50.527085)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 255 255 255 1)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "121c914e-fd7f-4557-9b43-d99c6678bcc5")
+	)
+	(gr_poly
+		(pts
+			(xy 93.517786 54.538406) (xy 91.942041 54.538406) (xy 88.552957 50.461594) (xy 90.128702 50.461594)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 255 255 255 1)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "16048fa9-61d6-4007-b4f9-a4258568ad4d")
+	)
+	(gr_poly
+		(pts
+			(xy 117.186411 54.439559) (xy 115.946817 54.439559) (xy 115.946817 50.527085) (xy 117.186411 50.527085)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 255 255 255 1)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "21437002-97a9-49f7-b6ab-59cef3d8c919")
+	)
+	(gr_poly
+		(pts
+			(xy 66.053183 54.420181) (xy 64.81359 54.420181) (xy 64.81359 50.507706) (xy 66.053183 50.507706)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 255 255 255 1)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "cb5cc213-b61d-4b47-91bd-2666101a1796")
+	)
+	(gr_poly
+		(pts
+			(xy 95.958376 54.400833) (xy 94.718782 54.400833) (xy 94.718782 50.488358) (xy 95.958376 50.488358)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 255 255 255 1)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "f44ca266-2f8b-4803-800a-3abd427c1589")
+	)
+	(gr_rect
+		(start 31 50)
+		(end 151 55)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "Edge.Cuts")
+		(uuid "73b88101-f072-4bb1-83a9-ff2c1bb8e671")
+	)
+	(group ""
+		(uuid "0fbe15e6-1dd0-411c-9d9c-83a52cc7823b")
+		(members "121c914e-fd7f-4557-9b43-d99c6678bcc5" "16048fa9-61d6-4007-b4f9-a4258568ad4d"
+			"21437002-97a9-49f7-b6ab-59cef3d8c919" "cb5cc213-b61d-4b47-91bd-2666101a1796"
+			"f44ca266-2f8b-4803-800a-3abd427c1589"
+		)
+	)
+	(embedded_fonts no)
+)
