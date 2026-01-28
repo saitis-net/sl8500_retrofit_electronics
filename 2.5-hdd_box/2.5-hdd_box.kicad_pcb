@@ -6324,7 +6324,7 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "T10000/T10K size box for 2.5'' HDD box\nsize is not too far from the IBM jaguar 3592\nv0.1\n"
+	(gr_text "T10000/T10K size box for 2.5'' HDD\nsize is not too far from the IBM Jaguar 3592\nv0.1\n"
 		(at 48.1 73.4 0)
 		(layer "Edge.Cuts")
 		(uuid "d8d976c0-20ca-4112-93eb-b073f655d4a1")
